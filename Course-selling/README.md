@@ -1,19 +1,11 @@
-## Create a course selling app
+🚀 Course-Selling Backend (Node.js, Express, MongoDB)
 
- - Initialize a new Node.js project
- - Add Express, jsonwebtoken, mongoose to it as a dependency 
- - Create index.js
- - Add route skeleton for user login, signup, purchase a course, sees all courses, sees the purchased courses course
- - Add routes for admin login, admin signup, create a course, delete a course, add course content.
- - Define the schema for User, Admin, Course, Purchase
- - Add a database (mongodb), use dotenv to store the database connection string
- - Add middlewares for user and admin auth
- - Complete the routes for user login, signup, purchase a course, see course (Extra points - Use express routing to better structure your routes)
- - Create the frontend
+This is the backend for my Course-Selling App, built using Node.js, Express, and MongoDB. I will be adding a React frontend soon. This version is much more polished compared to my first app! 🎉
 
-
- Good to haves
-  - Use cookies instead of JWT for auth
-  - Add a rate limiting middleware
-  - Frontend in ejs (low pri)
-  - Frontend in React
+✅ What I Learned & Added:
+.gitignore & dotenv for better security and environment management
+Password Hashing using bcryptjs (coming soon) 🔐
+Zod Validation for request data (planned) ✅
+🔧 Setup Instructions for Cloning:
+1️⃣ Create a .env file in the root directory
+2️⃣ Add your credentials (MongoDB URL & JWT secret)
